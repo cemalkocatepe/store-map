@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+#svg-turkiye-haritasi-container {
+  z-index: 10;
+}
+.dropdown-item:active {
+  background-color: #c1c1c1;
+}
