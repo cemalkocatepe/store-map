@@ -18,7 +18,7 @@ const settings = {
       settings: {
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 6000,
         pauseOnHover: true,
         rows: 1,
         slidesToShow: 2,
@@ -31,7 +31,7 @@ const settings = {
       settings: {
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 6000,
         pauseOnHover: true,
         rows: 1,
         slidesToShow: 1,
