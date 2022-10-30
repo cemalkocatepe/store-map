@@ -9,7 +9,7 @@ Store filtering application with map
 ## Screenshots
 
 #### Web-Desktop
-![web-desktop](https://i.ibb.co/kh2sDb2/Screenshot-1.png)
+![web-desktop](https://i.ibb.co/dBHmMjT/image.png)
 
 #### Web-Mobile
 ![web-mobile](https://i.ibb.co/jrKxDYT/indir.png)
