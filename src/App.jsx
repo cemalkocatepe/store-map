@@ -24,14 +24,15 @@ function App() {
     setIsActiveShopId(id);
   };
 
-  const handlerMapClick = ({ plateNumber, name }) => {
-    setShop({
+  const handlerMapClick = async ({ plateNumber, name }) => {
+    await setShop({
       ...shop,
       data: shopFind(shopsArray, isActiveShopId).data.filter(
         (e) => e.city === plateNumber
       ),
       cityName: name,
     });
+    window.scrollTo(0, 1000);
   };
 
   return (
