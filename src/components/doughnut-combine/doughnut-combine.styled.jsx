@@ -6,7 +6,7 @@ export const DoughnutCombineStyled = styled.div`
   right: ${(props) => props.position.right};
   bottom: ${(props) => props.position.bottom};
   left: ${(props) => props.position.left};
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1440px) {
     display: none;
   }
 `;

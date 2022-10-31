@@ -36,35 +36,35 @@ function App() {
 
   return (
     <AppStyle primaryColor={shop.theme.app.primaryColor}>
-      <Container>
-        <DoughuntCard
-          style={{
-            position: {
-              top: "-650px",
-              right: "auto",
-              bottom: "auto",
-              left: "-650px",
-            },
-            borderRadius: "500px",
-            height: "500px",
-            width: "500px",
-            color: shop.theme.app.secondaryColor,
-          }}
-        />
-        <DoughuntCard
-          style={{
-            position: {
-              top: "-650px",
-              right: "-650px",
-              bottom: "auto",
-              left: "auto",
-            },
-            borderRadius: "500px",
-            height: "500px",
-            width: "500px",
-            color: shop.theme.app.secondaryColor,
-          }}
-        />
+      <DoughuntCard
+        style={{
+          position: {
+            top: "-680px",
+            right: "auto",
+            bottom: "auto",
+            left: "-680px",
+          },
+          borderRadius: "500px",
+          height: "500px",
+          width: "500px",
+          color: shop.theme.app.secondaryColor,
+        }}
+      />
+      <DoughuntCard
+        style={{
+          position: {
+            top: "-680px",
+            right: "-680px",
+            bottom: "auto",
+            left: "auto",
+          },
+          borderRadius: "500px",
+          height: "500px",
+          width: "500px",
+          color: shop.theme.app.secondaryColor,
+        }}
+      />
+      <Container style={{ position: "relative", zIndex: "10" }}>
         <Row>
           <Col className="text-center">
             <Dropdown>
